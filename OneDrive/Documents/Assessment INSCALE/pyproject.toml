@@ -1,0 +1,16 @@
+[project]
+name = "grounded-doc-qa"
+version = "0.1.0"
+description = "A lightweight grounded document question-answering CLI."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pypdf>=4.0.0",
+]
+
+[project.scripts]
+docqa = "docqa.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

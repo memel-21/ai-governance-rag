@@ -1,0 +1,5 @@
+Risk management for AI systems is a lifecycle activity. Teams should identify hazards, estimate likelihood and impact, evaluate mitigations, and record residual risk before deployment.
+
+After deployment, teams should monitor system behavior, review incidents, collect feedback, and periodically reassess risks when the model or operating context changes.
+
+High impact AI systems need clear accountability, traceable decisions, test results, and escalation paths for failures or unexpected behavior.
